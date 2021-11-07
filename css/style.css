@@ -84,7 +84,8 @@ section {
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--item-off);
-    background-color: var(--item-on);    
+    background-color: var(--item-on); 
+    vertical-align: middle;   
 }
 
 .sect-values {
