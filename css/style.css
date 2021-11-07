@@ -9,8 +9,6 @@
   --section-bg:#2F303A;
 }
 
-/* */
-
 body {
   font-family: "Roboto", sans-serif;
   color: var(--text-main);
@@ -63,6 +61,8 @@ section {
 .navigation:hover {
   color: var(--item-on);
 }
+
+/* Заказ услуг */
 .title-services {
     font-weight: 900;
     font-size: 44px;
@@ -72,11 +72,9 @@ section {
     text-transform: uppercase;
     color: var(--item-off);
 }
-
 .bg-service {
     background: var(--section-bg);
 }
-
 .button-service {
     font-weight: 700;
     font-size: 16px;
@@ -88,6 +86,7 @@ section {
     vertical-align: middle;   
 }
 
+/* Ценности */
 .sect-values {
     font-weight: 700;
     font-size: 14px;
@@ -104,6 +103,7 @@ section {
     letter-spacing: 0.03em;
 }
 
+/* Заголовки секций */
 .title-sections {
     font-weight: 700;
     font-size: 36px;
@@ -113,6 +113,7 @@ section {
     color: var(--title-color);
 }
 
+/* Члены команды */
 .title-member {
     font-weight: 500;
     font-size: 16px;
@@ -130,11 +131,11 @@ section {
     letter-spacing: 0.03em;
 }
 
+/* Оформление футера */
 footer .logo,
 footer .logo:hover {
     color:var(--item-off)
 }
-
 .location {
     font-style: normal;
     font-size: 14px;
@@ -143,7 +144,6 @@ footer .logo:hover {
     color: var(--item-off);
     text-decoration: none;
 }
-
 address .link,
 address .link:hover {
     font-size: 14px;
