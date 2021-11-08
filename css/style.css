@@ -7,6 +7,7 @@
   --item-off: #ffffff;
   --section-background: #e5e5e5;
   --section-bg:#2F303A;
+  --bt-background:#F5F4FA;
 }
 
 body {
@@ -40,10 +41,9 @@ section {
 /* Отображение логотипа */
 .logo {
   font-family: Raleway;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--title-color);
 }
@@ -58,19 +58,22 @@ section {
 .navig {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-color);
 }
-.navigation:hover {
+.navig:hover {
   color: var(--item-on);
+}
+.contacts {
+  color: var(--text-main);
 }
 
 /* Заказ услуг */
 .title-services {
     font-weight: 900;
     font-size: 44px;
-    line-height: 1,36;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -80,29 +83,30 @@ section {
     background: var(--section-bg);
 }
 .button-service {
-    font-family: inherit;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1,87;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: var(--item-off);
-    background-color: var(--item-on); 
-    cursor: pointer;    
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--item-off);
+  background-color: var(--item-on); 
+  cursor: pointer; 
+  border-width: 0;   
 }
 
 /* Ценности */
 .sect-values {
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--title-color);
 }
 .values-text {
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
     letter-spacing: 0.03em;
 }
 
@@ -110,7 +114,7 @@ section {
 .title-sections {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-color);
@@ -120,16 +124,14 @@ section {
 .title-member {
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-color);
 }
 .member-text {
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -145,8 +147,26 @@ section {
 
 .text-portfolio {
   font-size: 16px;
-  line-height: 1,87;
+  line-height: 1.87;
   letter-spacing: 0.03em;
+}
+.bt-portfolio {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  color: var(--title-color);
+  background-color: var(--bt-background); 
+  border-width: 0;
+  margin: 2px;
+}
+.bt-portfolio:hover {
+  color: var(--item-off);
+  background-color: var(--item-on); 
+    
 }
 
 /* Оформление футера */
@@ -155,17 +175,17 @@ footer .logo:hover {
     color:var(--item-off)
 }
 .location {
-    font-style: normal;
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--item-off);
     text-decoration: none;
+    font-style: normal;
 }
 address .link,
 address .link:hover {
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     font-style: normal;
     color:var(--text-footer)
