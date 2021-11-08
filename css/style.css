@@ -76,6 +76,7 @@ section {
     background: var(--section-bg);
 }
 .button-service {
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1,87;
@@ -83,7 +84,7 @@ section {
     letter-spacing: 0.06em;
     color: var(--item-off);
     background-color: var(--item-on); 
-    vertical-align: middle;   
+    cursor: pointer;    
 }
 
 /* Ценности */
@@ -96,8 +97,6 @@ section {
     color: var(--title-color);
 }
 .values-text {
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 1,71;
     letter-spacing: 0.03em;
